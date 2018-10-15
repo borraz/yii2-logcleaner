@@ -1,0 +1,21 @@
+{
+    "name": "borraz/yii2-logcleaner",
+    "description": "Yii2 extension to clean log folders",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Angel Borraz",
+            "email": "miguelangelborraz@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "borraz\\logCleaner\\": ""
+        }
+    }
+}
